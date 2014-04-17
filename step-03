@@ -5,15 +5,29 @@
 gt > vai
 gT > volta
 
+# navegação entre arquivos no buffer
+control + o -> Volta para o arquivo anterior
+control + i -> Acança pro arquivo que foi voltado
+
+# Repetição do últomo comando
+. -> repete último comando executado
+
 # cut, copy and paste
 
 y -> copia 
 x -> corta
 p -> cola
 
+# replace
+:%s/<palavra_original>/<palvra_substituida>/g -> g=escopo global
+
 # Use com combos!!
 
 y2w -> copia as duas palavras a frente
 y2b -> copia as duas palavras atras
+
+#highlights
+shift + 3 -> dar um hightlight em todas as palavras iguais a que o cursor está apontando
+:noh -> retira os hightligt
 
 
